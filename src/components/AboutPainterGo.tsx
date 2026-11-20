@@ -6,7 +6,7 @@ const DEFAULTS = {
   name: "Sunil Kumar",
   tagline:
     "Mumbai-based, client-first and straightforward. You deal directly with me, from the first call to the final result.",
-  photo: "/Images/Sunil.jpeg",
+  photo: "./img/Sunil.jpeg",
   phone: "9594845483",
   whatsapp: "919594845483",
   email: "sk51568434692@gmail.com",
@@ -29,19 +29,19 @@ const DEFAULTS = {
  
 const workImages = [
   {
-    src: "./Images/image.png",
+    src: "./img/image.png",
     alt: "Professional painting work",
   },
   {
-    src: "/Images/image1.png",
+    src: "./img/image1.png",
     alt: "Electrical installation",
   },
   {
-    src: "/Images/image2.png",
+    src: "./img/image2.png",
     alt: "Interior renovation work",
   },
   {
-    src: "/Images/image3.png",
+    src: "./img/image3.png",
     alt: "Interior finishing",
   },
 ];

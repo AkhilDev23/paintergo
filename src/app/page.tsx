@@ -24,11 +24,11 @@ const projects = [
 {
   title: 'Living Room — Interior Painting',
   place: 'Malad, Mumbai',
-  before: '/images/LivingRoom.png',
+  before: '/img/LivingRoom.png',
   after: 'photo-1600607687939-ce8a6c25118c'
-}, { title: 'Apartment Building — Exterior Painting', place: 'Kandivali, Mumbai', before: '/Images/tiles.png', after: '/Images/Kitchen.png' },
-  { title: 'Texture Wall Finish', place: 'Jogeshwari, Mumbai', before: '/Images/Texture.png', after: '/Images/Img.png' },
-   { title: 'Office Space — Commercial Painting', place: 'Andheri, Mumbai', before: 'photo-1497366754035-f200968a6e72', after: '/Images/Fiber.png' },
+}, { title: 'Apartment Building — Exterior Painting', place: 'Kandivali, Mumbai', before: '/img/tiles.png', after: '/img/Kitchen.png' },
+  { title: 'Texture Wall Finish', place: 'Jogeshwari, Mumbai', before: '/img/Texture.png', after: '/img/Img.png' },
+   { title: 'Office Space — Commercial Painting', place: 'Andheri, Mumbai', before: 'photo-1497366754035-f200968a6e72', after: '/img/Fiber.png' },
 ];
 const areas = ['Jogeshwari', 'Goregaon', 'Malad', 'Kandivali', 'Borivali', 'Andheri', 'Mumbai','Thane', 'Vasai', 'Virar', 'Dahisar', 'Bandra', 'Kurla', 'Powai', 'Vikhroli', 'Mulund', 'Bhandup','Kalyan', 'Dombivli', 'Navi Mumbai', 'Panvel', 'Vashi', 'Belapur', 'Airoli', 'Ghansoli', 'Kharghar'];
 function photo(id: string, width = 900) { return `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=82`; }
