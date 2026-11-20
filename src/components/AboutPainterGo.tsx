@@ -53,7 +53,9 @@ const steps = [
   { number: "4", title: "Quality", subtitle: "Delivery" },
 ];
 
-export default function AboutPainterGo(props) {
+export default function AboutPainterGo(
+  props: Partial<typeof DEFAULTS> = {}
+) {
   const d = { ...DEFAULTS, ...props };
   return (
      
