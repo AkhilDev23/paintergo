@@ -29,7 +29,7 @@ const DEFAULTS = {
  
 const workImages = [
   {
-    src: "/Images/image.png",
+    src: "./Images/image.png",
     alt: "Professional painting work",
   },
   {
